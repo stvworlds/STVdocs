@@ -8,18 +8,21 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Правила
+      link: /rules
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Про нас
+      link: /about-us
+    - theme: alt
+      text: Фішки
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Медійність
+    details: снімаєм тік такі
+    icon: 📸
+  - title: Стабільність
+    details: много фпс
+    icon: 🍃
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

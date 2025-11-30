@@ -3,8 +3,8 @@
     "vitepress": "^2.0.0-alpha.15"
   },
   "scripts": {
-    "docs:dev": "vitepress dev STVdocs",
-    "docs:build": "vitepress build STVdocs",
-    "docs:preview": "vitepress preview STVdocs"
+    "docs:dev": "vitepress dev STVdocs-conf",
+    "docs:build": "vitepress build STVdocs-conf",
+    "docs:preview": "vitepress preview STVdocs-conf"
   }
 }
