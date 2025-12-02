@@ -5,6 +5,7 @@ layout: home
 hero:
   name: "Stevious"
   text: "Документація"
+  image: ./images/logo.png
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -21,8 +22,9 @@ features:
     details: снімаєм тік такі
     icon: 📸
   - title: Стабільність
-    details: много фпс
+    details: много тпс
     icon: 🍃
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Ком'юніті
+    details: Добре та щире комюніті
+    icon: ❤️
 ---
