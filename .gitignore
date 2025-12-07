@@ -38,3 +38,6 @@ next-env.d.ts
 # vitepress
 STVdocs/.vitepress/dist
 STVdocs/.vitepress/cache
+/STVdocs-conf/.vitepress/dist/
+/STVdocs-conf/.vitepress/cache/
+/STVdocs-conf/.vitepress/cache/

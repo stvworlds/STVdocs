@@ -6,16 +6,18 @@ hero:
   name: "Stevious"
   text: "Документація"
   image: ./images/logo.png
-  tagline: My great project tagline
+  tagline: медійний український Minecrat-сервер
   actions:
     - theme: brand
       text: Правила
       link: /rules
     - theme: alt
       text: Про нас
-      link: /about-us
+      link: /info
     - theme: alt
-      text: Фішки
+      text: Часті питання
+      link: /info/faqs
+      
 
 features:
   - title: Медійність
