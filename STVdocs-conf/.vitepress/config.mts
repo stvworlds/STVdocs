@@ -19,13 +19,13 @@ export default defineConfig({
         text: 'Навігація',
         items: [
           { text: 'Дім', link: '/' },
-          { text: 'Правила', link: '/rules',
+          { text: 'Правила', link: '/rules/index',
           items: [
               { text: "Спілкування", link: "/rules/discord"},
               { text: "Ферми", link: "/rules/farms"},
               { text: "Заборонені модифікації", link: "/rules/cheats"}
           ]},
-          { text: "Інформація", link: "/info", items: [
+          { text: "Інформація", link: "/info/index", items: [
               { text: "Про нас", link: "/info/about"},
               { text: "Команда", link: "/info/team"},
               { text: "Часті питання", link: "/info/faqs"}

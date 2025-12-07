@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Правила
-      link: /rules
+      link: /rules/index
     - theme: alt
       text: Про нас
-      link: /info
+      link: /info/index
     - theme: alt
       text: Часті питання
       link: /info/faqs
