@@ -1,0 +1,25 @@
+name: Notify website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  ping-stvweb:
+    name: Trigger STVweb docs submodule bump
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository dispatch → STEVIOUS-XYZ/STVweb
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_DISPATCH_TOKEN }}
+          repository: STEVIOUS-XYZ/STVweb
+          event-type: docs-updated
+          client-payload: |
+            {
+              "source": "${{ github.repository }}",
+              "sha": "${{ github.sha }}",
+              "ref": "${{ github.ref }}"
+            }
